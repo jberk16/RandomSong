@@ -45,7 +45,6 @@ def singlesong(): #prints the randomly chosen song
     print songlist[seed]
 
 def carddraw(): #creates a list of n songs, each player eliminates 1
-    valid = False
     n = howmanysongs()
     cards = random.sample(songlist, n)
     for index in range(0, n):
